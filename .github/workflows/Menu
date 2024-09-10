@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú de Luisa's Food</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        section {
+            margin: 2em;
+            padding: 2em;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #d35400;
+            margin-bottom: 1em;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 0.5em 0;
+            display: flex;
+            align-items: center;
+        }
+        .price {
+            margin-left: auto;
+            font-weight: bold;
+            color: #2ecc71;
+        }
+        img {
+            width: 100px;
+            height: auto;
+            border-radius: 8px;
+            margin-right: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Luisa's Food</h1>
+    </header>
+
+    <!-- Platos de Entrada -->
+    <section>
+        <h2>Platos de Entrada</h2>
+        <ul>
+            <li><img src="https://i.postimg.cc/BZz3V4Wy/bruschetta.jpg" alt="Bruschetta"> Bruschetta <span class="price">Q45</span></li>
+            <li><img src="https://i.postimg.cc/ry4T378w/Ensalada-Caprese.jpg" alt="Ensalada Caprese"> Ensalada Caprese <span class="price">Q55</span></li>
+            <li><img src="https://i.postimg.cc/pVS9YwsV/Sopa-de-cebolla.jpg" alt="Sopa de Cebolla"> Sopa de Cebolla <span class="price">Q50</span></li>
+        </ul>
+    </section>
+
+    <!-- Platos Fuertes -->
+    <section>
+        <h2>Platos Fuertes</h2>
+        <ul>
+            <li><img src="https://i.postimg.cc/W1YbTrxN/Filete-de-res-al-grill.jpg" alt="Filete de Res al Grill"> Filete de Res al Grill <span class="price">Q150</span></li>
+            <li><img src="https://i.postimg.cc/vHL4F4QT/Pasta-Carbonara.jpg" alt="Pasta Carbonara"> Pasta Carbonara <span class="price">Q80</span></li>
+            <li><img src="https://i.postimg.cc/tgfTtPzS/Pollo-a-la-parmesana.jpg" alt="Pollo a la Parmesana"> Pollo a la Parmesana <span class="price">Q95</span></li>
+        </ul>
+    </section>
+
+    <!-- Postres -->
+    <section>
+        <h2>Postres</h2>
+        <ul>
+            <li><img src="https://i.postimg.cc/s2P659yy/Tiramis.jpg" alt="Tiramisú"> Tiramisú <span class="price">Q45</span></li>
+            <li><img src="https://i.postimg.cc/rp9jDVCw/cheesecake-de-fresa.jpg" alt="Cheesecake de Fresa"> Cheesecake de Fresa <span class="price">Q40</span></li>
+            <li><img src="https://i.postimg.cc/ZYQcBD3p/Helado-artesanal.jpg" alt="Helado Artesanal"> Helado Artesanal <span class="price">Q35</span></li>
+        </ul>
+    </section>
+
+    <!-- Bebidas -->
+    <section>
+        <h2>Bebidas</h2>
+        <ul>
+            <li><img src="https://i.postimg.cc/D01PK7Zh/Jugo-de-naranja.jpg" alt="Jugo de Naranja"> Jugo de Naranja <span class="price">Q20</span></li>
+            <li><img src="https://i.postimg.cc/t4BtbSXs/Cafe-americano.jpg" alt="Café Americano"> Café Americano <span class="price">Q15</span></li>
+            <li><img src="https://i.postimg.cc/SQc6RNSF/Vino-tinto.jpg" alt="Vino Tinto"> Vino Tinto <span class="price">Q60</span></li>
+        </ul>
+    </section>
+
+    <!-- Menú de Desayuno -->
+    <section>
+        <h2>Menú de Desayuno</h2>
+        <ul>
+            <li><img src="https://i.postimg.cc/kGwDSHY8/Huevos-rancheros.jpg" alt="Huevos Rancheros"> Huevos Rancheros <span class="price">Q50</span></li>
+            <li><img src="https://i.postimg.cc/mrMDjk6T/Pancakes-con-miel.jpg" alt="Pancakes con Miel"> Pancakes con Miel <span class="price">Q45</span></li>
+            <li><img src="https://i.postimg.cc/8kwCtqwf/Desayuno-Chapin.jpg" alt="Desayuno Chapín"> Desayuno Chapín <span class="price">Q60</span></li>
+        </ul>
+    </section>
+</body>
+</html>
